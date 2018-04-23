@@ -8,7 +8,8 @@
   "license": "MIT",
   "scripts": {
     "chrome-open": "yarn run && yarn chrome-launch",
-    "chrome-launch": "node chrome-launch.js"
+    "chrome-launch": "node chrome-launch.js",
+    "firefox-launch": "web-ext run --source-dir static --pref startup.homepage_welcome_url=https://www.hackerrank.com/challenges/30-loops/problem"
   },
   "dependencies": {
     "chrome-launch": "^1.1.4",

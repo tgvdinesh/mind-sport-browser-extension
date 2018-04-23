@@ -8,11 +8,12 @@ Show diagram here.
 ```
 yarn
 yarn chrome-launch
+yarn firefox-launch
 ```
 
 ## TODO
  - [x] Deploy simple browser extension in chrome browser
- - [ ] Debug chrome extension in WebStrom
+ - [ ] Debug chrome extension in WebStorm
  - [ ] Start using typescript
 
 ## Reference
