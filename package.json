@@ -6,8 +6,12 @@
   "repository": "https://github.com/tgvdinesh/mind-sport-companion",
   "author": "Dinesh V",
   "license": "MIT",
+  "scripts": {
+    "chrome-open": "yarn run && yarn chrome-launch",
+    "chrome-launch": "node chrome-launch.js"
+  },
   "dependencies": {
-    "chrome-launcher": "^0.10.2",
+    "chrome-launch": "^1.1.4",
     "firefox-launch": "^1.1.0",
     "web-ext": "^2.6.0"
   }

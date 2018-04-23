@@ -4,6 +4,11 @@ This might sound odd but I'm into plugin development now.
 ## Topology
 Show diagram here.
 
+## TODO
+ - [x] Deploy simple browser extension in chrome browser
+ - [ ] Debug chrome extension in WebStrom
+ - [ ] Start using typescript
+
 ## Reference
  - [topics/browser-extension](https://github.com/topics/browser-extension)
  - [OctoLinker/OctoLinker](https://github.com/OctoLinker/OctoLinker)
