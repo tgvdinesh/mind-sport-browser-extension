@@ -4,6 +4,12 @@ This might sound odd but I'm into plugin development now.
 ## Topology
 Show diagram here.
 
+## Getting started
+```
+yarn
+yarn chrome-launch
+```
+
 ## TODO
  - [x] Deploy simple browser extension in chrome browser
  - [ ] Debug chrome extension in WebStrom
