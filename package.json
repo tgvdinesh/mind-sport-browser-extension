@@ -1,0 +1,14 @@
+{
+  "name": "mind-sport-companion",
+  "version": "1.0.0",
+  "description": "Mind Sport IntelliJ Companion",
+  "main": "index.js",
+  "repository": "https://github.com/tgvdinesh/mind-sport-companion",
+  "author": "Dinesh V",
+  "license": "MIT",
+  "dependencies": {
+    "chrome-launcher": "^0.10.2",
+    "firefox-launch": "^1.1.0",
+    "web-ext": "^2.6.0"
+  }
+}
