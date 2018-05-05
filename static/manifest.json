@@ -1,13 +1,13 @@
 {
-  "name": "Mind Sport",
-  "description": "Mind Sport Browser Extension",
   "manifest_version": 2,
+  "name": "Mind Sport",
+  "version": "1.0",
+  "description": "Mind Sport Browser Extension",
   "background": {
     "scripts": [
       "background.js"
     ]
   },
-  "version": "1.0",
   "permissions": [
     "tabs",
     "http://localhost/"
