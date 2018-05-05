@@ -1,6 +1,6 @@
 {
-  "name": "Hello Extensions",
-  "description": "Base Level Extension",
+  "name": "Mind Sport",
+  "description": "Mind Sport Browser Extension",
   "permissions": [
     "storage"
   ],

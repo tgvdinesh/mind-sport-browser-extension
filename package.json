@@ -1,7 +1,7 @@
 {
   "name": "mind-sport-companion",
   "version": "1.0.0",
-  "description": "Mind Sport IntelliJ Companion",
+  "description": "Mind Sport Browser Extension",
   "main": "index.js",
   "repository": "https://github.com/tgvdinesh/mind-sport-companion",
   "author": "Dinesh V",
