@@ -14,9 +14,9 @@ yarn firefox-launch
 ## TODO
  - [x] Deploy simple browser extension in chrome browser
  - [ ] Debug chrome extension in WebStorm
- - [ ] Start using typescript
 
 ## Reference
+ - [Debug Javascript Firefox](https://www.jetbrains.com/help/webstorm/debugging-javascript-in-firefox.html)
  - [topics/browser-extension](https://github.com/topics/browser-extension)
  - [OctoLinker/OctoLinker](https://github.com/OctoLinker/OctoLinker)
  - [Chrome Launcher](https://www.npmjs.com/package/chrome-launcher)

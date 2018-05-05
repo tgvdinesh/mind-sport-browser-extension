@@ -7,13 +7,13 @@
   "author": "Dinesh V",
   "license": "MIT",
   "scripts": {
-    "chrome-open": "yarn run && yarn chrome-launch",
     "chrome-launch": "node chrome-launch.js",
     "firefox-launch": "web-ext run --source-dir static --pref startup.homepage_welcome_url=https://www.hackerrank.com/challenges/30-loops/problem"
   },
   "dependencies": {
     "chrome-launch": "^1.1.4",
     "firefox-launch": "^1.1.0",
-    "web-ext": "^2.6.0"
+    "web-ext": "^2.6.0",
+    "web-ext-types": "^2.1.0"
   }
 }

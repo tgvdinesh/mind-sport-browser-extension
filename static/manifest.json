@@ -1,30 +1,74 @@
 {
   "name": "Mind Sport",
   "description": "Mind Sport Browser Extension",
-  "permissions": [
-    "storage"
-  ],
-  "version": "1.0",
   "manifest_version": 2,
-  "browser_action": {
-    "default_popup": "hello.html",
-    "default_icon": "icons/icon-32.png"
-  },
-  "commands": {
-    "_execute_browser_action": {
-      "suggested_key": {
-        "windows": "Ctrl+Shift+Y",
-        "mac": "Command+Shift+Y",
-        "chromeos": "Ctrl+Shift+U",
-        "linux": "Ctrl+Shift+J"
-      },
-      "description": "Opens hello.html"
-    }
-  },
   "background": {
     "scripts": [
       "background.js"
-    ],
-    "persistent": false
+    ]
+  },
+  "version": "1.0",
+  "permissions": [
+    "tabs",
+    "http://localhost/"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.contest.yandex.ru/*",
+        "https://*.contest.yandex.com/*",
+        "https://*.contest2.yandex.ru/*",
+        "https://*.contest2.yandex.com/*",
+        "http://codeforces.ru/*",
+        "http://codeforces.com/*",
+        "https://hackerrank.com/*",
+        "https://www.hackerrank.com/*",
+        "https://www.facebook.com/hackercup/*",
+        "http://usaco.org/*",
+        "http://www.usaco.org/*",
+        "https://code.google.com/codejam/contest/*",
+        "https://codejam.withgoogle.com/*",
+        "http://contest.bayan.ir/*",
+        "https://*.kattis.com/problems/*",
+        "https://*.kattis.com/contests/*",
+        "http://www.codechef.com/*",
+        "https://www.codechef.com/*",
+        "https://www.hackerearth.com/*",
+        "https://*.contest.atcoder.jp/*",
+        "https://csacademy.com/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_idle",
+      "all_frames": false
+    }
+  ],
+  "icons": {
+    "16": "icons/icon-16.png",
+    "19": "icons/icon-19.png",
+    "20": "icons/icon-20.png",
+    "24": "icons/icon-24.png",
+    "32": "icons/icon-32.png",
+    "38": "icons/icon-38.png",
+    "48": "icons/icon-48.png",
+    "64": "icons/icon-64.png",
+    "96": "icons/icon-96.png",
+    "128": "icons/icon-128.png"
+  },
+  "page_action": {
+    "default_icon": {
+      "16": "icons/icon-16.png",
+      "19": "icons/icon-19.png",
+      "20": "icons/icon-20.png",
+      "24": "icons/icon-24.png",
+      "32": "icons/icon-32.png",
+      "38": "icons/icon-38.png",
+      "48": "icons/icon-48.png",
+      "64": "icons/icon-64.png",
+      "96": "icons/icon-96.png"
+    },
+    "default_title": "Parse task",
+    "browser_style": false
   }
 }
