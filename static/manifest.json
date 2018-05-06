@@ -3,6 +3,8 @@
   "name": "Mind Sport",
   "version": "1.0",
   "description": "Mind Sport Browser Extension",
+  "author": "Dinesh V",
+  "homepage_url": "https://github.com/tgvdinesh/mind-sport-companion",
   "background": {
     "scripts": [
       "background.js"
