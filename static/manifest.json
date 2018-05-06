@@ -2,9 +2,9 @@
   "manifest_version": 2,
   "name": "Mind Sport",
   "version": "1.0",
-  "description": "Mind Sport Browser Extension",
+  "description": "Mind Sport Browser Extension that will post data in json format to localhost 4243",
   "author": "Dinesh V",
-  "homepage_url": "https://github.com/tgvdinesh/mind-sport-companion",
+  "homepage_url": "https://tgvdinesh.github.io/mind-sport/",
   "background": {
     "scripts": [
       "background.js"
