@@ -8,6 +8,3 @@ chrome.runtime.onMessage.addListener(function () {
     console.log(message);
     console.log(promise);
 });
-chrome.runtime.onInstalled.addListener(function () {
-    console.log("Consider installing Mind sport IntelliJ Plugin!")
-});

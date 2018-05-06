@@ -25,3 +25,5 @@ yarn firefox-launch
  - [push-api](https://www.w3.org/TR/push-api/#dfn-push-services)
  - [Hot Reloading for Chrome Extensions](https://60devs.com/hot-reloading-for-chrome-extensions.html)
  - [hughsk/chrome-launch](https://github.com/hughsk/chrome-launch)
+ - [Chrome Extension samples](https://developer.chrome.com/extensions/samples#search:page)
+ - [So You Want to Build a Chrome Extension?](https://blog.hartleybrody.com/chrome-extension/)
